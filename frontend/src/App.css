@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  background: aqua;
+}
+.login {
+  width: 72%;
+  margin-left: 17%;
+
+  background: cadetblue;
+}
+.sign-form {
+  width: 50%;
+  position: absolute;
+  left: 26%;
+  margin-top: 2%;
+  padding: 5%;
+}
+.login-form {
+  width: 50%;
+  position: absolute;
+  left: 26%;
+  margin-top: 2%;
+  padding: 2%;
+}
+.contact {
+  width: 50%;
+  position: absolute;
+  left: 23%;
+  padding: 5%;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  width: 99%;
+  background: linear-gradient(45deg, black, transparent);
+}
+
+.table {
+  position: absolute;
+  margin-right: 50%;
+  margin-top: 15px;
+  padding-inline: 18%;
+}
+.input {
+  margin-right: 43%;
+  display: flow;
+  margin-left: 30%;
+  margin-top: 2%;
+}
+.add-contact {
+  margin: 2%;
+  margin-inline: 15%;
+  padding: 2%;
+  margin-bottom: 13%;
+}
+
+.group {
+  position: absolute;
+  width: 23%;
+  left: 39%;
+}
+.group-search {
+  width: 14%;
+}
+.input-box {
+  margin-top: 2%;
+  padding: 1%;
+}
+.td {
+  padding: 0%;
+}
